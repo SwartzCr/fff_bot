@@ -13,7 +13,7 @@ def get_tweet_text():
     exclam = random.randint(0,space)*"!"
     fuck = "f"+us+"ck"+exclam
     if random.random() > 0.5:
-        fuck.upper()
+        fuck = fuck.upper()
     return fuck
 
 
